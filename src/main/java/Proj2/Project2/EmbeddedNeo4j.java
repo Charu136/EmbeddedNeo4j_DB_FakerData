@@ -42,9 +42,7 @@ public class EmbeddedNeo4j {
 			pd.getUsersLocations(users.next());
 			
 		}
-
-		
-		 while(companies.hasNext()) { 
+		while(companies.hasNext()) { 
 			 pd.getCompanyUsers(companies.next());
 		 }
 		
